@@ -1,15 +1,15 @@
-# raw-input
+# ClietTrust
 
-Client feito para liberar input de redação no Sala do futuro.
+Client feito para liberar input de redação no sala do futuro
+
+> **Aviso:** O sistema de segurança do site bloqueia scripts externos (Bookmarklets de link). Por isso, **você precisa copiar e colar o código manualmente**. É o único jeito que funciona 100%
 
 ## Como usar
-A forma mais rápida é criar um **favorito** no seu navegador
 
-1. Ative a barra de favoritos (`Ctrl + Shift + B`).
-2. Clique com o botão direito na barra e escolha **"Adicionar página"**.
-3. Na **URL**, cole o código abaixo:
-```javascript
-javascript:fetch("https://raw.githubusercontent.com/npmstealer/ClientTrust/refs/heads/main/client.js").then(t=>t.text()).then(eval);
-```
-### Usando
-Quando estiver na página, clique no bookmark que o texto será liberado instantaneamente
+1. **Abra o arquivo** `client.js` aqui no repositório e copie todo o código
+2. Entre na página da redação
+3. Aperte `F12` ou `ctrl + shift + i` no teclado (ou clique com botão direito na tela > Inspecionar)
+4. Vá na aba **Console**.
+5. Cole o código e aperte `enter`.
+
+**Pronto.** 
